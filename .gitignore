@@ -1,3 +1,4 @@
 agfx
+.gitignore
 *.o
 *.ini
