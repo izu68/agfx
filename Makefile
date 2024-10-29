@@ -11,7 +11,7 @@ IMGUI_DIR = /opt/libraries/imgui
 
 # ======================= Application Sources ======================
 
-SOURCES = main.cpp
+SOURCES = tool.cpp main.cpp
 
 # ======================= Other Sources ============================
 
@@ -85,3 +85,6 @@ $(EXE): $(OBJS)
 
 clean:
 	rm -f $(EXE) $(OBJS)
+
+run:
+	./agfx
